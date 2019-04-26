@@ -1,0 +1,74 @@
+/*Copyright: Brock Matzenbacher 2017, All rights reserved*/
+body {
+}
+
+.agenda-date {
+	background-color: #a2a1ae;
+	margin-right: 30px;
+}
+#agenda > th {
+	min-width: 10%;
+	max-width: 14%;
+}
+
+#dayOfWeek > th.agenda-day {
+	background-color: #b2b1ae;
+	padding-bottom:10px;
+
+}
+.agenda-date {
+	text-align: right;
+
+	margin-right:10px;
+
+}
+.agenda-time {
+	background-color: #a2a1ae;
+	text-align:right;
+	padding-top: 12px;
+}
+.right-border {
+	border-right: 1px solid black;
+}
+.bottom-border {
+	border-bottom: 1px solid black;
+}
+.top-border {
+	border-top: 1px solid black;
+}
+.agenda-free {
+	background-color: #00CC00;
+	text-align: center;
+
+}
+tr:nth-child(even) > .agenda-free {
+	background-color: #00DC00;
+}
+tr:nth-child(even) > .agenda-time {
+	background-color: #b2b1be;
+}
+.agenda-used > p {
+	text-overflow: ellipsis;
+
+}
+
+.agenda-used {
+	background-color: #CC0000;
+	color:	#FFFFFF;
+	
+}
+tr:nth-child(even) > .agenda-used {
+	background-color: #DC0000;
+	color:	#FFFFFF;
+	
+}
+.agenda-shade {
+	background-color: #d86f2d;
+	color:	#FFFFFF;
+	
+}
+tr:nth-child(even) > .agenda-shade {
+	background-color: #dd5804;
+	color:	#FFFFFF;
+	
+}

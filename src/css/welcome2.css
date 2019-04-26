@@ -1,0 +1,66 @@
+
+strong { font-weight: 500; }
+
+a, a:hover, a:focus {
+	color: #ea2028;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.top-content{
+	margin-top: 10%;
+}
+.form-top-right {
+	float: left;
+	width: 25%;
+	padding-top: 5px;
+	font-size: 66px;
+	color: #ddd;
+	line-height: 100px;
+	text-align: right;
+}
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #eee;
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+
+.form-bottom form button.btn {
+	width: 100%;
+}
+
+@media(max-width:360px)
+{
+	#signText{
+		font-size: 17px !important;
+		text-align: center;
+	}
+}
+
+@media(min-width:361px)
+{
+	#signText{
+		font-size: 21px !important;
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+	#signText{
+		font-size: 21px !important;
+		text-align: center;
+		margin-left: -18%;
+	}
+}
+
+@media(min-width:1025px)
+{
+	#signText{
+		font-size: 25px !important;
+		text-align: center;
+		margin-left: -17%;
+	}
+}
+

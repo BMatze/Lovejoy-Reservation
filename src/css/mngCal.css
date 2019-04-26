@@ -1,0 +1,75 @@
+
+@media (max-height: 700px) {
+    .sticky {
+        position: relative;
+    }
+}
+@media (max-width: 600px) {
+    .resize {
+        display: none;
+    }
+}
+@media(max-width:320px)
+{
+    #mngCal {
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media(max-width:420px)
+{
+    #mngCal {
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media(min-width:768px)
+{
+    #mngCal {
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media(min-width:1024px)
+{
+    #mngCal {
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media(min-width:1200px)
+{
+    #mngCal {
+        margin-top: 2%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+.monthly {
+    box-shadow: 0 13px 40px rgba(0, 0, 0, 0.5);
+}
+
+/*Removing reservation*/
+
+
+#confirm-modal {
+	background: rgba(233, 235, 236, 0.9);
+	overflow: auto;
+	position: absolute;
+	top: 2.5em;
+	width: 100%;
+	height: calc(100% - 5em);
+	display: none;
+	-webkit-transition: .25s;
+	transition: .25s;
+	-webkit-transform: scale(0);
+		-ms-transform: scale(0);
+	        transform: scale(0);
+}

@@ -1,0 +1,128 @@
+@CHARSET "ISO-8859-1";
+#schedule, th, td{
+	
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#schedule{
+	margin:auto;
+	width: 50%;
+}
+
+td{
+	width: 10%;
+	text-align: center;
+	padding: 1% 1%;
+}
+
+td.blank{
+	border: none;
+}
+
+tr.time{
+	background-color: #e6e6e6;
+}
+
+#days{
+	background-color: black;
+	color: white;
+}
+
+#dayNumbers{
+	background-color:#e41c24;
+	color: white;
+}
+
+#month{
+	
+	margin:auto;
+	margin-top:1%;
+	width: 50%;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+.modalText{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalText:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalText > div {
+	width: 25%;
+	margin: auto;
+	position: relative;
+	padding: 2% 2%;
+	border-radius: 5px;
+	background: #e41c24;
+	background: -moz-linear-gradient(#fff, #e41c24);
+	background: -webkit-linear-gradient(#fff, #e41c24);
+	background: -o-linear-gradient(#fff, #e41c24);
+}
+
+.reserveText{
+	color: black;
+}
+
+.container{
+	background-color: #e6e6e6;
+	border-radius: 15px;
+}
+
+#endTimeBox{
+	border: 2px solid black;
+}
+
+#selectRoomBox{
+	border: 2px solid black;
+}
+
+#reserveRoomButton{
+	height: 50%;
+	border: 2px solid black;
+	position: relative;
+	margin-top: 5%;
+	margin-left: 35%;
+	border-radius: 10px;
+	padding: 2.5%;
+}
+
+#startRoomTime{
+	margin: auto;
+}
+
+.radioButtons{
+	margin-bottom: 10%;
+	margin-left: 35%;
+}
+
+.closeButton{
+	margin-left:99%;
+}
+
+.reserveText{
+	margin-left: 2%;
+}
+
+.myLink{
+	padding:10% 50%;
+}
+.avail{
+	padding: 0;
+}

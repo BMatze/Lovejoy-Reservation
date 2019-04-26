@@ -1,0 +1,53 @@
+.navbar .nav > li > a {
+    color:  white;
+}
+
+ .navbar-inverse .navbar-nav > .active > a, 
+ .navbar-inverse .navbar-nav > .active > a:hover, 
+ .navbar-inverse .navbar-nav > .active > a:focus {
+      color: white;
+      background: #ea2028;
+ }
+ 
+ .navbar-brand {
+  padding:0;
+  padding-left: 20px;
+}
+
+div.TopGraBG {
+	background-image: url('../img/library_bckgd.jpg');
+	    margin-top: -20px;
+}
+	
+div.hdrBG div.TopGraBG {
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+    overflow: hidden;
+    background-color: #000;  
+}
+
+a.list-group-item, button.list-group-item {
+    color: #ea2028;
+}
+ 
+@media(max-width:700px)
+{
+    .navbar-nav > li{
+        padding-top:20px;
+    }
+    
+    .navbar-nav.navbar-right > li{
+        padding-top:0px;
+    }
+    
+    .navbar-brand {
+    padding:0;
+    padding-left: 0px;
+    }
+    .navbar-inverse .navbar-brand {
+        padding-bottom: 0;
+    }
+
+}
+

@@ -1,0 +1,37 @@
+.form-group{
+    display:block;
+	margin-left: 35%;
+}
+
+label{
+	color: #ea2028;
+}
+
+alertdiv{
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+
+@media screen and (min-width:700px) and (max-width:992px) {
+    h1 {
+		margin-top: 8%;
+	}
+	.form-group{
+	    display:block;
+		margin-left: 10%;
+	}
+}
+
+@media(max-width:992px)
+{
+	.form-group{
+    display:block;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+}
+
+#mycalendar2{
+	position: unset !important;
+}
